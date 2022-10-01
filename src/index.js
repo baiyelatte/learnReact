@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 // import './index.css';
 import App from "./01组件化开发/App";
 // import reportWebVitals from './reportWebVitals';
-
+console.log(App);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
