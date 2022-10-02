@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div style={{ width: "100px", height: "100px", backgroundColor: "red" }}>
-        我是baiyelatte分支
+        我是baiyelatte分支dadwadwa
       </div>
     );
   }
