@@ -49,6 +49,7 @@ export default class App extends Component {
   }
   componentDidUpdate() {
     console.log("更新了");
+    console.log("又更新了");
   }
 }
 
