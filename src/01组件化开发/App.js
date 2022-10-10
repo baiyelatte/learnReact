@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Qt from "./2022.10.10";
 
 class Cpn extends Component {
   render() {
@@ -21,7 +22,13 @@ export default class App extends Component {
     console.log("再执行render");
     const { num, isShow } = this.state;
     return (
-      <div style={{ width: "100px", height: "100px", backgroundColor: "red" }}>
+      <div
+        style={{
+          width: "fit-content",
+          height: "100px",
+          backgroundColor: "red",
+        }}
+      >
         我是baiyelatte分支nixx
         <h2>{num}</h2>
         <button
@@ -32,6 +39,8 @@ export default class App extends Component {
           ++
         </button>
         {isShow && <Cpn />}
+        <br style={{ width: "100px", height: "100px" }} />
+        <Qt />
       </div>
     );
   }
@@ -47,9 +56,9 @@ export default class App extends Component {
   componentDidMount() {
     console.log("再挂载");
   }
-  componentDidUpdate() {
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    console.log(prevProps, prevState, snapshot);
     console.log("更新了");
-    console.log("又更新了");
   }
 }
 
