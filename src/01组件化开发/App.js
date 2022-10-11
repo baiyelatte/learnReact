@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Qt from "./2022.10.10";
+import Qt from "./2022.10.11";
 
 class Cpn extends Component {
   render() {
