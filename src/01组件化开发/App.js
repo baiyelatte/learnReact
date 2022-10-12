@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Qt from "./2022.10.11";
+import Qc from "./2022.10.10";
 
 class Cpn extends Component {
   render() {
@@ -41,6 +42,9 @@ export default class App extends Component {
         {isShow && <Cpn />}
         <br style={{ width: "100px", height: "100px" }} />
         <Qt />
+        <Qc />
+        <Qt />
+        <Qc />
       </div>
     );
   }

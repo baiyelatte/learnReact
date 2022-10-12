@@ -23,7 +23,7 @@ function CenterText() {
   );
 }
 
-export default class Qt extends Component {
+export default class Qc extends Component {
   render() {
     return (
       <div>
