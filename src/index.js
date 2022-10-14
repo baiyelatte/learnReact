@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // import './index.css';
-import App from "./01组件化开发/2022.10.13.父子通信";
+import App from "./01组件化开发/2022.10.15父子通信_子传父";
 // import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

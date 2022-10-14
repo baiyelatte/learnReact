@@ -8,15 +8,27 @@ class Children extends Component {
   //     super();
   //     this.props = props;
   //   }
+  // 第一种写法
+  static propTypes = {
+    feature: PropTypes.string.isRequired,
+  };
+  static defaultProps = {
+    feature: "方玉雯",
+  };
   render() {
     const { feature } = this.props;
     return <div>芳芳芳是什么{feature}</div>;
   }
 }
-//定义prop的类型
-Children.propTypes = {
-  feature: PropTypes.string,
-};
+//定义prop的类型  第二种写法
+// Children.propTypes = {
+//   feature: PropTypes.string.isRequired, // 验证类型并说明必传
+// };
+// 给默认值
+// Children.defaultProps = {
+//   feature: "方玉雯",
+// };
+//-----------------------------------------------------------------------
 
 // 函数组件
 function Child(props) {
@@ -35,13 +47,22 @@ Child.propTypes = {
   feature: PropTypes.number,
   name: PropTypes.array,
 };
+// 给默认值
+Child.defaultProps = {
+  feature: 1000,
+  name: [100, 500, 600],
+};
+//-----------------------------------------------------------------------
+
 export default class App extends Component {
   render() {
     return (
       <div>
         <Children feature="nixx"></Children>
+        <Children></Children>
         <Child feature={18}></Child>
         <Child name={[15, 16, "xxxxxxxx"]}></Child>
+        <Child></Child>
       </div>
     );
   }
