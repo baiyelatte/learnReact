@@ -29,6 +29,10 @@ class Children extends Component {
 //   feature: "方玉雯",
 // };
 //-----------------------------------------------------------------------
+//定义prop的类型
+Children.propTypes = {
+  feature: PropTypes.string,
+};
 
 // 函数组件
 function Child(props) {
