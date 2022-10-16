@@ -1,0 +1,14 @@
+.chilrenBox {
+    display: flex;
+    line-height: 44px;
+    height: 44px;
+    padding: 20px;
+}
+.chilrenBoxItem {
+    flex: 1;
+    text-align: center;
+}
+.active {
+    color: red;
+    border-bottom: 5px solid red;
+}
