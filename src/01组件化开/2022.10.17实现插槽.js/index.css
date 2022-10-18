@@ -1,0 +1,38 @@
+.navBarBox {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.navBar0 .navBar2 {
+    width: 40px;
+    height: 80px;
+    background-color: red;
+}
+
+.navBar1 {
+    flex: 1;
+    background-color: pink;
+}
+
+.test {
+    text-align: center;
+    line-height: 80px;
+}
+
+.chilrenBox {
+    display: flex;
+    line-height: 44px;
+    height: 44px;
+    padding: 20px;
+}
+
+.chilrenBoxItem {
+    flex: 1;
+    text-align: center;
+}
+
+.active {
+    color: red;
+    border-bottom: 5px solid red;
+}
