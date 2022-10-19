@@ -6,11 +6,7 @@ export default class App extends Component {
     return (
       <div>
         {/*双标签内部的元素会存在于子元素的this.props.chilren中*/}
-        <NavBar2>
-          <span>nixx</span>
-          <span>woxx</span>
-          <span>taxx</span>
-        </NavBar2>
+        <NavBar2 name={"余洋"} age={18}></NavBar2>
         <NavBar
           leftSlot={<span>nixx</span>}
           centerSlot={<span>woxx</span>}
