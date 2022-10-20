@@ -27,7 +27,7 @@ export default class navBar extends Component {
         {/*层层传值  还可以使用结构的方法对props的值进行全部的接受*/}
         <h2>分割线-------------------------------</h2>
         <TestChilren {...this.props}></TestChilren>
-        <TestChilren2 {...this.props}></TestChilren2>
+        <TestChilren2 {...this.props}>nixx</TestChilren2>
       </div>
     );
   }
