@@ -20,7 +20,7 @@ class UserInfo extends Component {
       <div>
         <h2>用户名称：{name}</h2>
         <h2>用户性别：{sex}</h2>
-        <h2 style={{ color: bgc }}>背景色：{bgc}</h2>
+        <h2 style={{ color: bgc }}>背景色：{bgc??'nixx'}</h2>
       </div>
     );
   }
