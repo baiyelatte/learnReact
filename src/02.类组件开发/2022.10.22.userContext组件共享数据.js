@@ -74,7 +74,7 @@ export default class App extends Component {
     super(props);
     this.state = {
       name: "芳芳芳",
-      sex: "女",
+      sex: "女99",
     };
   }
   render() {
