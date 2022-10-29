@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // import './index.css';
-import App from "./02.类组件开发/2022.10.22.userContext组件共享数据";
+import App from "./02.类组件开发/setState的特性同步更新";
 // import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>
+  <App />
 );
 
 // If you want to start measuring performance in your app, pass a function
