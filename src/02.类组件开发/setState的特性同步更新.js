@@ -34,6 +34,6 @@ export default class App extends Component {
                 message:'我爱你余洋'
             })
             console.log(this.state.message);
-        }, 0);
+        }, 10);
     }
 }
