@@ -22,7 +22,7 @@ export default class App extends Component {
     componentDidMount() {
         document.getElementById('btn').addEventListener('click',()=>{
             this.setState({
-                message:'我爱你,,余洋'
+                message:'我爱你余洋'
             })
             console.log(this.state.message);
         })
