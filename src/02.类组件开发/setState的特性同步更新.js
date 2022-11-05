@@ -31,7 +31,7 @@ export default class App extends Component {
         //此时为同步
         setTimeout(() => {
             this.setState({
-                message:'我爱你余洋，，'
+                message:'我爱你余，，'
             })
             console.log(this.state.message);
         }, 10);
