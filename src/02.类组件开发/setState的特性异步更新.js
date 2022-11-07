@@ -22,7 +22,7 @@ export default class App extends Component {
     // 如果想获取新的有第二个参数来获取，第二个参数为回调函数可以对数据进行操作
     changeText() {
         this.setState({
-            message:'我爱你余洋'
+            message:'，，我爱你余洋'
         },()=>{
             console.log(this.state.message);
         })
