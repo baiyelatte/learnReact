@@ -20,6 +20,7 @@ export default class App extends Component {
     }
     // setState 是异步更新 如果直接拿值是拿到旧的 
     // 如果想获取新的有第二个参数来获取，第二个参数为回调函数可以对数据进行操作
+    // 18不存在同步全是异步
     changeText() {
         this.setState({
             message:'，，我爱你余洋'
