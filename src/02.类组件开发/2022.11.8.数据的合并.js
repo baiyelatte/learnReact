@@ -30,7 +30,7 @@ export default class App extends Component {
         // message不会消失变为undefined
         // 源码是通过obj.assign对多个对象进行合并所以不会出现将不做修改的至覆盖为ubdefined
         this.setState({
-            name: '余洋',
+            name: '余...洋',
         })
     }
     changeNum() {
