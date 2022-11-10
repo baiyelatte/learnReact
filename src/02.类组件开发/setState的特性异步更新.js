@@ -14,7 +14,7 @@ export default class App extends Component {
                 <h1>
                     {message}
                 </h1>
-                <button onClick={()=>this.changeText()}>修改文本</button>
+                <button onClick={()=>this.changeText()}>修，改文本</button>
             </div>
         )
     }
