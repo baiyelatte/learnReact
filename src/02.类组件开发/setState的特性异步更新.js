@@ -4,7 +4,7 @@ export default class App extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            message: '我爱你,方玉雯'
+            message: '我爱你,1方玉雯'
         }
     }
     render() {
