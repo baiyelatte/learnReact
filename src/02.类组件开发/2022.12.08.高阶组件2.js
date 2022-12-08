@@ -13,7 +13,7 @@ class Home extends PureComponent {
 }
 class About extends PureComponent {
     render() {
-        return <h1>home:{`名字:${this.props.name} 性别:${this.props.sex} 籍贯:${this.props.postion}`}</h1>
+        return <h1>home:{`名字1:${this.props.name} 性别:${this.props.sex} 籍贯:${this.props.postion}`}</h1>
     }
 }
 // return 一个类组件
