@@ -2,7 +2,7 @@ import React, { Component, PureComponent, createContext } from 'react'
 
 // 文件讲述 通过高阶组件在函数入口处给数据共享给所有组件
 const HomeContext = createContext({
-    name: '余洋',
+    name: '余1洋',
     sex: '男',
     postion: '中国'
 })
