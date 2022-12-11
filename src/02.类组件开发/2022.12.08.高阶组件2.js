@@ -4,7 +4,7 @@ import React, { Component, PureComponent, createContext } from 'react'
 const HomeContext = createContext({
     name: '余1洋',
     sex: '男',
-    postion: '中国'
+    postion: '中1国'
 })
 class Home extends PureComponent {
     render() {
